@@ -1,0 +1,176 @@
+html, button {
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("/Users/jen/git/Basic-Portfolio/assets/images/full-bloom.png");
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: scroll;
+    padding-bottom: 61px;
+}
+
+h1, h2, .color-text-overlay {
+    color: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.content-title {
+    color: #4aaaa5;
+    margin: 16px
+}
+
+p {
+    padding: .5em;
+    line-height: 1.5em;
+}
+
+hr {
+    height: 2px;
+    margin: 20px 16px;
+    background-color: #ccc;
+}
+/* Header and Nav Wrapper */
+.left-right-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: #fff;
+    border-color: #ccc;
+    margin-bottom: 30px;
+    width: 960px;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 50px;
+    position: relative;
+}
+
+.navbar ul li {
+    border-right: 1px solid #ccc;
+}
+
+.navbar ul li:last-child {
+    border-right: none;
+}
+
+ul {
+    background-color: #fff;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-align: center;
+    margin: 0 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+.name-logo {
+    background-color:  #4aaaa5;
+    display: flex;
+    padding: 5px 35px;
+    margin-left: 50px;
+}
+
+img {
+    width: 280px;
+    margin: 15px;
+    position: relative;
+}
+
+.portrait {
+    float: left;
+    padding: 5px 15px; 
+    width: 240px;
+    height: 160px;
+}
+
+.content-titles-area, .content-about, .content-portfolio, .content-form {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    max-width: 960px;
+    margin: 0 50px;
+    overflow: scroll;
+}
+
+.content-portfolio, .content-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-images {
+    position: relative;
+}
+
+.color-text-overlay {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    background-color: #4aaaa5;
+    width: 280px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 10px 20px;
+    padding: 5px;
+}
+
+input[type=text] { 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 10px;
+   
+}
+
+input[type=submit] {
+    align-items: center;
+    background-color:  #4aaaa5;
+    color: #fff;
+    font-size: 1em;
+    justify-content: flex-start;
+    margin-left: 5px;
+    padding: 5px 15px;
+    width: 54px;
+}
+
+input[id=message] {
+    padding: 75px 0px;
+}
+
+footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    padding: 29px 0 5px 0;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+
+
+
+
